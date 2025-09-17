@@ -1,6 +1,6 @@
 "strict mode";
 {
-    console.log("Hello World! Module 3 Guide 7");
+    console.log("Hello World! This is Module 3 Guide 8");
     // Array called names with 3 items in it 
     var names = ["Mario", "Luigi", "Yoshi"];
     //Adding one more name to my array 
