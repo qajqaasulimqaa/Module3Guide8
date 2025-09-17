@@ -4,16 +4,16 @@
     // Array called names with 3 items in it 
     var names = ["Mario", "Luigi", "Yoshi"];
     //Adding one more name to my array 
-    names.push("Princess");
+    names.push("Adding one extra item to my array", "Princess");
     console.log(names);
     //Printing last item in my array
     console.log(names[names.length - 1]);
     //Printing, the amount of items in my array
     console.log("This is length of names", names.length);
     //Printing the amount of letters in first item in my array
-    console.log(names[0].length);
-    //Printing 2nd item in my array
-    console.log(names[2]);
+    console.log("The amount of letters in name Mario is", names[0].length);
+    //Printing 3rd item in my array
+    console.log("Third item in my array is", names[2]);
     // Creating an object
     var person = {
         name: 'Luigi',
@@ -21,7 +21,7 @@
     };
     //Adding color of hair property to my object
     person.colorOfhair = 'black';
-    console.log(person);
+    console.log("This is an object with an extra property", person);
     //Adding data to my object
     //Changing name from Luigi to Lugig from Mario Game
     person.name = 'Luigi from Mario Game';
@@ -34,8 +34,8 @@
     var user1_1 = "poopyDudu";
     //$ acts likea binder, it binder Hello and variable user
     function greet() {
-        console.log("Hello, ".concat(user_1));
-        console.log("Hello ".concat(user1_1));
+        console.log("Calling user name:", "Hello, ".concat(user_1));
+        console.log("Calling user2 name:", "Hello ".concat(user1_1));
     }
     //we call a function greet
     greet();
@@ -45,23 +45,23 @@
     function simpleMathfunction() {
         return a_1 + b_1;
     }
-    console.log(simpleMathfunction());
+    console.log("23+20 gives", simpleMathfunction());
     //Second math function 
     var number_1 = 2;
     function square2() {
         return number_1 * number_1;
     }
-    console.log(square2());
+    console.log("Square of 2 gives us", square2());
     // Date, hour of creating this document
     var date = new Date();
-    console.log(date);
+    console.log("Current date is", date);
     //Only current year
     var year = date.getFullYear();
-    console.log(year);
+    console.log("Current year:", year);
     //How to create new date
     //had to switch const name as it was already in usage
     var dateCreated = new Date("2024, 21:57");
-    console.log(dateCreated);
+    console.log("When i was creating this file it was:", dateCreated);
     //Output with DOM
     document.body.innerHTML += "<p>File opened at: ".concat(date, "</p>");
 }
