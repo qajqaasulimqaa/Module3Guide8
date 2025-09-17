@@ -37,6 +37,16 @@
         console.log("Calling user name:", "Hello, ".concat(user_1));
         console.log("Calling user2 name:", "Hello ".concat(user1_1));
     }
+    //If function
+    var apples = true;
+    var oranges = false;
+    if (apples === true) {
+        console.log("If statement...", "Apples are not oranges!");
+    }
+    if (oranges === false) {
+        console.log("If statement", "Oranges are not apples!");
+    }
+    ;
     //we call a function greet
     greet();
     //Second function that calculates the value

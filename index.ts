@@ -50,6 +50,18 @@ delete person.age;
     console.log("Calling user2 name:",`Hello ${user1}`)
 
  }
+
+ //If function
+
+ const apples = true; 
+ const oranges = false; 
+if (apples === true){
+   console.log("If statement...","Apples are not oranges!"); 
+}
+
+if (oranges ===false){
+   console.log("If statement", "Oranges are not apples!"); 
+}; 
  //we call a function greet
  greet()
 
